@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: wpressapp
+  name: wpressapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wpressapp
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: wpressapp
+    spec:
+      containers:
+      - image: wordpress:latest
+        name: wordpress
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: wpressapp
+  name: wpressapp
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: wpressapp
+  type: LoadBalancer
