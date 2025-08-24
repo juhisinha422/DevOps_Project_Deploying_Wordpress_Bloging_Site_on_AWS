@@ -108,6 +108,8 @@ wpressapp    LoadBalancer   10.100.39.135    afac9b7b1acb04c109118ebfee30527a-17
 
 NOTE: We can also expose using NodePort IP. (In wordpress deployment yml give type as NodePort)
 
+ kubectl port-forward svc/wpressapp 30328:80 --address=0.0.0.0 (if using KIND and NodePort IP. (kubectl get svc wordpress)
+
 #### Follow the on-screen steps to configure WordPress with your MySQL backend.
 
 - 1 ![Screenshot 2025-05-17 105809](https://github.com/user-attachments/assets/9ce10b23-81dd-4d61-9c88-c385159ac22f)
