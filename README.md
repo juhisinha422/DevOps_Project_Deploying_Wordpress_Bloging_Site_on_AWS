@@ -122,14 +122,14 @@ NOTE: We can also expose using NodePort IP. (In wordpress deployment yml give ty
 #### Follow the on-screen steps to configure WordPress with your MySQL backend.
 
 NOTE:Give database host name (10.96.220.127) --kubectl get svc (mysql)
-- 1 ![Screenshot 2025-05-17 105809](https://github.com/user-attachments/assets/ecc1dcd5-e451-4522-8dae-271cb1bfa844)
-- 2 ![Screenshot 2025-05-17 105825](https://github.com/user-attachments/assets/300a72da-80b9-4059-b412-533bd05b8ba9)
-- 3 ![Screenshot 2025-05-17 111026](https://github.com/user-attachments/assets/96ac7978-714e-4edc-a79e-74de583b9f9a)
-- 4 ![Screenshot 2025-05-17 111132](https://github.com/user-attachments/assets/75df3787-462e-4c14-bd37-8bc955e5b33e)
-- 5 ![Screenshot 2025-05-17 111950](https://github.com/user-attachments/assets/fde463c6-a6df-4a07-9869-9739fa587b90)
-- 6 ![Screenshot 2025-05-17 112002](https://github.com/user-attachments/assets/289deaa8-9d6d-442e-9970-a0795850682d)
-- 7 ![Screenshot 2025-05-17 112441](https://github.com/user-attachments/assets/be20fcbb-8a4a-4fb3-b048-e8337f11c30d)
-- 8 ![Screenshot 2025-05-17 112519](https://github.com/user-attachments/assets/7e0aa8f3-239e-4023-afdf-1586dca81b26)
+- 1 ![Screenshot 2025-08-24 105809](https://github.com/user-attachments/assets/ecc1dcd5-e451-4522-8dae-271cb1bfa844)
+- 2 ![Screenshot 2025-08-24 105825](https://github.com/user-attachments/assets/300a72da-80b9-4059-b412-533bd05b8ba9)
+- 3 ![Screenshot 2025-08-24 111026](https://github.com/user-attachments/assets/96ac7978-714e-4edc-a79e-74de583b9f9a)
+- 4 ![Screenshot 2025-08-24 111132](https://github.com/user-attachments/assets/75df3787-462e-4c14-bd37-8bc955e5b33e)
+- 5 ![Screenshot 2025-08-24 111950](https://github.com/user-attachments/assets/fde463c6-a6df-4a07-9869-9739fa587b90)
+- 6 ![Screenshot 2025-08-24 112002](https://github.com/user-attachments/assets/289deaa8-9d6d-442e-9970-a0795850682d)
+- 7 ![Screenshot 2025-08-24 112441](https://github.com/user-attachments/assets/be20fcbb-8a4a-4fb3-b048-e8337f11c30d)
+- 8 ![Screenshot 2025-08-24 112519](https://github.com/user-attachments/assets/7e0aa8f3-239e-4023-afdf-1586dca81b26)
 
 
 ### 8. 🧹 Cleanup (Optional)
