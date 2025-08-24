@@ -72,9 +72,9 @@ git push
 #### Click Create and then Sync the application to deploy.  
 
 #### 🚀 ArgoCD Dashboard Images:
-![Screenshot 2025-05-17 105010](https://github.com/user-attachments/assets/f13637a3-8ea3-4b53-af9d-836f814a3416)
+![Screenshot 2025-08-24 105010](https://github.com/user-attachments/assets/05d28e46-c507-4f84-8e6b-0acb0aa6781a)
 
-![Screenshot 2025-05-17 105115](https://github.com/user-attachments/assets/2e576601-d3ce-4dae-8118-ea840dd37e9d)
+![Screenshot 2025-08-24 105115](https://github.com/user-attachments/assets/2e576601-d3ce-4dae-8118-ea840dd37e9d)
 
 
 ### 5. 🧱 Kubernetes Manifests Overview
