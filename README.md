@@ -122,7 +122,7 @@ NOTE: We can also expose using NodePort IP. (In wordpress deployment yml give ty
 #### Follow the on-screen steps to configure WordPress with your MySQL backend.
 
 NOTE:Give database host name (10.96.220.127) --kubectl get svc (mysql)
-- 1 ![Screenshot 2025-08-24 105809](https://github.com/user-attachments/assets/9ce10b23-81dd-4d61-9c88-c385159ac22f)
+- 1 ![Screenshot 2025-08-24 105809](https://github.com/user-attachments/assets/c164707f-87c4-4b85-9c0d-9bfbb85f15fd)
 - 2 ![Screenshot 2025-08-24 105825](https://github.com/user-attachments/assets/300a72da-80b9-4059-b412-533bd05b8ba9)
 - 3 ![Screenshot 2025-08-24 111026](https://github.com/user-attachments/assets/ecc1dcd5-e451-4522-8dae-271cb1bfa844)
 - 4 ![Screenshot 2025-08-24 111132](https://github.com/user-attachments/assets/75df3787-462e-4c14-bd37-8bc955e5b33e)
