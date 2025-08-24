@@ -61,7 +61,7 @@ git push
 - App Name: `wordpressapp`
 - Project: `default`
 - Sync Policy: `Manual` (or `Auto` if preferred)
-- Repo URL: `https://github.com/himanshukr8090/DevOps_Project_Deploying_Wordpress_Bloging_Site_on_AWS`
+- Repo URL: `https://github.com/juhisinha422/DevOps_Project_Deploying_Wordpress_Bloging_Site_on_AWS`
 - Path: `/`
 - Namespace: default
 - Cluster URL: https://kubernetes.default.svc
@@ -120,4 +120,4 @@ wpressapp    LoadBalancer   10.100.39.135    afac9b7b1acb04c109118ebfee30527a-17
 ```bash
 eksctl delete cluster --name my-cluster --region ap-south-1
 ```
-## This Project is Created by `Himanshu Kumar Singh`
+## This Project is Created by `Juhi Sinha`
