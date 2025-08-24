@@ -137,5 +137,7 @@ NOTE:Give database host name (10.96.220.127) --kubectl get svc (mysql)
 
 ```bash
 eksctl delete cluster --name my-cluster --region ap-south-1
+OR
+kind delete cluster --name <cluster-name> (if using KIND Cluster)
 ```
 ## This Project is Created by `Juhi Sinha`
