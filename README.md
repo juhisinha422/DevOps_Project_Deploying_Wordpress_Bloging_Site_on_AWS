@@ -21,6 +21,7 @@ eksctl create cluster \
   --region ap-south-1 \
   --nodes 1 \
   --managed
+NOTE: we can create cluster using KIND cluster also.
 ```
 
 ### 2. 🚀 Install ArgoCD on the Cluster
@@ -101,6 +102,7 @@ wpressapp    LoadBalancer   10.100.39.135    afac9b7b1acb04c109118ebfee30527a-17
 
 - Example:
 `http://afac9b7b1acb04c109118ebfee30527a-1772024785.ap-south-1.elb.amazonaws.com`
+NOTE: We can also expose using NodePort IP. (In wordpress deployment yml give type as NodePort)
 
 #### Follow the on-screen steps to configure WordPress with your MySQL backend.
 
