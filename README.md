@@ -33,6 +33,9 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 Retrieve the admin password:
 ```bash
 kubectl get secret argocd-initial-admin-secret -n argocd
+OR
+kubectl -n argocd get secret argocd-initial-admin-secret \
+  -o jsonpath="{.data.password}" | base64 -d; echo
 ```
 Forward the ArgoCD UI to localhost:
 ```bash
