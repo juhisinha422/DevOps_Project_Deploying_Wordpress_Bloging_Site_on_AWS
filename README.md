@@ -98,6 +98,16 @@ NAME         TYPE           CLUSTER-IP       EXTERNAL-IP                        
 kubernetes   ClusterIP      10.100.0.1       <none>                                                                     443/TCP        2m23s
 mysqldb1     ClusterIP      10.100.167.138   <none>                                                                     3306/TCP       47s
 wpressapp    LoadBalancer   10.100.39.135    afac9b7b1acb04c109118ebfee30527a-1772024785.ap-south-1.elb.amazonaws.com   80:31034/TCP   47s
+
+OR (if using KIND cluster)
+
+$ kubectl get svc
+NAME               TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+kubernetes         ClusterIP   10.96.0.1       <none>        443/TCP          155m
+myflaskappdeploy   NodePort    10.96.86.167    <none>        5000:31655/TCP   148m
+mysqldb1           ClusterIP   10.96.220.127   <none>        3306/TCP         55m
+wpressapp          NodePort    10.96.49.173    <none>        80:30328/TCP     80s
+
 ```
 
 ### 7. 🌍 Access the WordPress Blog
