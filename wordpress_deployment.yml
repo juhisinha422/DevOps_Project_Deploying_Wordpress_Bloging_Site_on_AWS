@@ -31,6 +31,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
+    nodePort: 30328 #if using EKS then can remove this
   selector:
     app: wpressapp
-  type: LoadBalancer
+  type: NodePort #if using EKS then give LoadBalancer
