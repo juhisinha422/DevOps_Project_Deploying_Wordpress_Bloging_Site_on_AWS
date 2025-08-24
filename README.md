@@ -129,7 +129,7 @@ NOTE:Give database host name (10.96.220.127) --kubectl get svc (mysql)
 - 5 ![Screenshot 2025-08-24 111950](https://github.com/user-attachments/assets/94a1cab2-23cb-4119-b36e-c7bd898930ac)
 - 6 ![Screenshot 2025-08-24 112002](https://github.com/user-attachments/assets/289deaa8-9d6d-442e-9970-a0795850682d)
 - 7 ![Screenshot 2025-08-24 112441](https://github.com/user-attachments/assets/0bb9c3de-1917-4f4a-b2d3-0277bb9e49dc)
-- 8 ![Screenshot 2025-08-24 112519](https://github.com/user-attachments/assets/7e0aa8f3-239e-4023-afdf-1586dca81b26)
+- 8 ![Screenshot 2025-08-24 112519](https://github.com/user-attachments/assets/91720f85-9772-49a3-840f-3009ff0e0d07)
 
 
 ### 8. 🧹 Cleanup (Optional)
