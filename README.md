@@ -36,6 +36,8 @@ kubectl get secret argocd-initial-admin-secret -n argocd
 Forward the ArgoCD UI to localhost:
 ```bash
 kubectl port-forward svc/argocd-server -n argocd 8080:443
+or
+kubectl port-forward svc/argocd-server -n argocd 8080:443 --address=0.0.0.0
 ```
 ![Screenshot 2025-05-17 123503](https://github.com/user-attachments/assets/23cd4539-4053-4c78-b706-4dc9f644586b)
 
