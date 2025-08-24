@@ -74,7 +74,7 @@ git push
 #### 🚀 ArgoCD Dashboard Images:
 ![Screenshot 2025-08-24 105010](https://github.com/user-attachments/assets/05d28e46-c507-4f84-8e6b-0acb0aa6781a)
 
-![Screenshot 2025-08-24 105115](https://github.com/user-attachments/assets/2e576601-d3ce-4dae-8118-ea840dd37e9d)
+![Screenshot 2025-08-24 105115](https://github.com/user-attachments/assets/971d550c-b934-45d8-b0a2-18d56cb51d8d)
 
 
 ### 5. 🧱 Kubernetes Manifests Overview
