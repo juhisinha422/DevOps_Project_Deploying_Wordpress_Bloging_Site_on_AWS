@@ -123,7 +123,7 @@ NOTE: We can also expose using NodePort IP. (In wordpress deployment yml give ty
 
 NOTE:Give database host name (10.96.220.127) --kubectl get svc (mysql)
 - 1 ![Screenshot 2025-08-24 105809](https://github.com/user-attachments/assets/c164707f-87c4-4b85-9c0d-9bfbb85f15fd)
-- 2 ![Screenshot 2025-08-24 105825](https://github.com/user-attachments/assets/300a72da-80b9-4059-b412-533bd05b8ba9)
+- 2 ![Screenshot 2025-08-24 105825](https://github.com/user-attachments/assets/5e3aecac-a097-4b9b-a6a1-e6bd37fad15e)
 - 3 ![Screenshot 2025-08-24 111026](https://github.com/user-attachments/assets/ecc1dcd5-e451-4522-8dae-271cb1bfa844)
 - 4 ![Screenshot 2025-08-24 111132](https://github.com/user-attachments/assets/75df3787-462e-4c14-bd37-8bc955e5b33e)
 - 5 ![Screenshot 2025-08-24 111950](https://github.com/user-attachments/assets/fde463c6-a6df-4a07-9869-9739fa587b90)
